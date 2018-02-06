@@ -1,0 +1,35 @@
+{
+  "name": "http-api-assignment-ii",
+  "version": "1.0.0",
+  "description": "HTTP API test with GET, HEAD, and POST requests",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KMTaylor023/http-api-assignment-ii.git"
+  },
+  "keywords": [
+    "http",
+    "ii",
+    "HEAD",
+    "GET",
+    "POST",
+    "WOW",
+    "DOPE"
+  ],
+  "author": "Keegan Taylor",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.5.0",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0"
+  },
+  "bugs": {
+    "url": "https://github.com/KMTaylor023/http-api-assignment-ii/issues"
+  },
+  "homepage": "https://github.com/KMTaylor023/http-api-assignment-ii#readme"
+}
