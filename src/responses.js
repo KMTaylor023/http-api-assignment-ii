@@ -58,7 +58,7 @@ const notFound = (request, response) => {
 
 const getUsers = (request, response, method) => {
   if (method === 'GET') {
-    const content = JSON.stringify({users});
+    const content = JSON.stringify({ users });
     return respondJson(request, response, content, 200);
   } else if (method === 'HEAD') {
     return respondHead(request, response, 200);
@@ -135,6 +135,7 @@ const addUser = (request, response, method) => {
 
     return userPostHandler(request, response, bodyParams);
   });
+  return true;
 };
 
 module.exports = {
